@@ -1,33 +1,31 @@
 import { useTheme } from "./context/ThemeContext";
 import Navbar from "./components/Navbar/Navbar";
+import Hero from "./sections/Hero";
 
 function App() {
   const { darkMode } = useTheme();
 
   return (
+  <div
+    className={`relative min-h-screen transition-all duration-300 ${
+      darkMode
+        ? "bg-zinc-950 text-white"
+        : "bg-white text-black"
+    }`}
+  >
+    {/* Grid Background */}
     <div
-      className={`min-h-screen transition-all duration-300 ${
+      className={`absolute inset-0 -z-10 ${
         darkMode
-          ? "bg-zinc-950 text-white"
-          : "bg-white text-black"
-      }`}
-    >
-      <Navbar />
+          ? "bg-[linear-gradient(to_right,#ffffff08_1px,transparent_1px),linear-gradient(to_bottom,#ffffff08_1px,transparent_1px)]"
+          : "bg-[linear-gradient(to_right,#00000008_1px,transparent_1px),linear-gradient(to_bottom,#00000008_1px,transparent_1px)]"
+      } bg-[size:60px_60px]`}
+    />
 
-      <main>
-        <section className="px-6 py-24">
-          <h1 className="text-6xl font-bold">
-            Vaishnavi
-          </h1>
-
-          <p className="mt-6 max-w-3xl text-xl">
-            Full-Stack Developer & Competitive Programmer
-            building scalable applications powered by cloud and AI.
-          </p>
-        </section>
-      </main>
-    </div>
-  );
+    <Navbar />
+    <Hero />
+  </div>
+);
 }
 
 export default App;
