@@ -35,6 +35,9 @@ const Navbar = () => {
           <a href="#projects" className="text-zinc-400 transition-all duration-300 hover:text-violet-400">
             Projects
           </a>
+          <a href="#achievements" className="text-zinc-400 transition-all duration-300 hover:text-violet-400">
+            Achievements
+          </a>
 
           <a href="#contact" className="text-zinc-400 transition-all duration-300 hover:text-violet-400">
             Contact
@@ -42,9 +45,24 @@ const Navbar = () => {
         </div>
 
         <div className="flex items-center gap-4">
-          <button className="rounded-xl border border-white/20 px-4 py-2 text-sm font-medium transition-all duration-300 hover:scale-105 hover:border-violet-400 hover:shadow-[0_0_20px_rgba(168,85,247,0.3)] ">
-            Resume
-          </button>
+          <a
+  href="/VaishnaviMishra_Resume-phone.pdf"
+  target="_blank"
+  rel="noreferrer"
+  className="
+    rounded-2xl
+    border
+    border-white/10
+    px-6
+    py-3
+    font-semibold
+    transition
+    hover:border-violet-400
+    hover:text-violet-300
+  "
+>
+  Resume
+</a>
 
           <ThemeToggle />
         </div>
