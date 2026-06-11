@@ -1,16 +1,95 @@
-# React + Vite
+# Vaishnavi Mishra Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern and responsive developer portfolio showcasing my projects, technical skills, achievements, and journey as a Computer Science Engineering student.
 
-Currently, two official plugins are available:
+## About
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+I'm Vaishnavi Mishra, a Computer Science Engineering student passionate about software development, problem-solving, and building impactful applications.
 
-## React Compiler
+This portfolio serves as a central place to explore my:
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- Technical Skills
+- Projects
+- Achievements
+- Coding Profiles
+- Contact Information
 
-## Expanding the ESLint configuration
+## Features
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- Modern and responsive UI
+- Smooth user experience
+- Project showcase section
+- Skills section
+- Achievement highlights
+- Social media integration
+- Contact form
+- Optimized for desktop and mobile devices
+
+## Tech Stack
+
+- React.js
+- Vite
+- JavaScript
+- HTML5
+- CSS3
+- Git & GitHub
+
+## Live Demo
+
+Coming Soon
+
+## Installation
+
+Clone the repository:
+
+```bash
+git clone https://github.com/vaishnavi209-04/Portfolio.git
+```
+
+Navigate to the project folder:
+
+```bash
+cd Portfolio
+```
+
+Install dependencies:
+
+```bash
+npm install
+```
+
+Run the development server:
+
+```bash
+npm run dev
+```
+
+Build for production:
+
+```bash
+npm run build
+```
+
+## Coding Profiles
+
+- LeetCode: 1000+ Problems Solved
+- Knight Badge Holder
+- Strong foundation in Data Structures and Algorithms
+
+## Connect With Me
+
+- LinkedIn: [Add Your LinkedIn URL]
+- GitHub: https://github.com/vaishnavi209-04
+- LeetCode: [Add Your LeetCode URL]
+
+## Portfolio Preview
+
+Add screenshots of your portfolio here once the design is finalized.
+
+## License
+
+This project is open source and available under the MIT License.
+
+---
+
+Designed and developed by Vaishnavi Mishra.
