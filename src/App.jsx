@@ -1,6 +1,7 @@
 import { useTheme } from "./context/ThemeContext";
 import Navbar from "./components/Navbar/Navbar";
 import Hero from "./sections/Hero";
+import About from "./sections/About";
 
 function App() {
   const { darkMode } = useTheme();
@@ -24,6 +25,7 @@ function App() {
 
     <Navbar />
     <Hero />
+    <About />
   </div>
 );
 }
