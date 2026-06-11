@@ -35,45 +35,7 @@ const Hero = () => {
           cloud and AI.
         </p>
 
-        <div className="mt-10 flex gap-4">
-          <button
-  className="
-    rounded-xl
-    bg-violet-600
-    px-6
-    py-3
-    font-semibold
-    transition-all
-    duration-300
-    hover:scale-105
-    hover:shadow-[0_0_35px_rgba(168,85,247,0.5)]
-  "
->
-            View Projects
-          </button>
 
-          <button className="rounded-xl border px-6 py-3 font-semibold">
-            Contact Me
-          </button>
-        </div>
-
-        <div className="mt-10 flex flex-wrap gap-3">
-          <span className="rounded-full border px-4 py-2">
-            1000+ Problems Solved
-          </span>
-
-          <span className="rounded-full border px-4 py-2">
-            Knight Badge
-          </span>
-
-          <span className="rounded-full border px-4 py-2">
-            Full Stack
-          </span>
-
-          <span className="rounded-full border px-4 py-2">
-            Cloud & AI
-          </span>
-        </div>
       </div>
 
       {/* Right Side */}

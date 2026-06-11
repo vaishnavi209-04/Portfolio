@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 const skillGroups = [
   {
     title: "Languages",
-    skills: ["Java", "JavaScript", "Python", "C"],
+    skills: ["Java", "JavaScript", "Python", "TypeScript","GO"],
   },
   {
     title: "Frontend",
@@ -11,12 +11,20 @@ const skillGroups = [
   },
   {
     title: "Backend",
-    skills: ["Node.js", "Express.js"],
+    skills: ["Node.js", "Express.js","FastAPI"],
   },
   {
-    title: "Cloud & Tools",
-    skills: ["GCP", "Git", "GitHub", "Postman"],
+    title: "Cloud",
+    skills: ["GCP", "Cloud Run", "Kubernetes", "Vertex AI","Compute Engine","VPC","IAM"],
   },
+  {
+    title: "Databases",
+    skills: ["PostgreSQL", "MySQL", "MongoDB", "Redis"],
+  },
+  {
+    title: "DevOps & Tools",
+    skills: ["Git", "Docker", "GitHub", "GitHub Actions", "Render", "Vercel","Cloud Logging"],
+  }
 ];
 
 const Skills = () => {

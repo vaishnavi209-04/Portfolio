@@ -2,24 +2,18 @@ import ThemeToggle from "./ThemeToggle";
 
 const Navbar = () => {
   return (
-    <header className="sticky top-4 z-50 px-6">
+    <header className="sticky top-0 z-50 px-6">
   <nav
-    className="
-      mx-auto
-      flex
-      max-w-7xl
-      items-center
-      justify-between
-      rounded-2xl
-      border
-      border-white/10
-      bg-white/5
-      px-6
-      py-4
-      backdrop-blur-xl
-      shadow-lg
-    "
-  >
+  className="
+    mx-auto
+    flex
+    max-w-7xl
+    items-center
+    justify-between
+    px-6
+    py-6
+  "
+>
         <h1 className="text-xl font-bold tracking-wide">
           <span className="bg-gradient-to-r from-violet-400 to-fuchsia-400 bg-clip-text text-transparent">
   VM
