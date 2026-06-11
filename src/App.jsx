@@ -2,6 +2,9 @@ import { useTheme } from "./context/ThemeContext";
 import Navbar from "./components/Navbar/Navbar";
 import Hero from "./sections/Hero";
 import About from "./sections/About";
+import Skills from "./sections/Skills";
+import Projects from "./sections/Projects";
+import Contact from "./sections/Contact";
 
 function App() {
   const { darkMode } = useTheme();
@@ -26,6 +29,9 @@ function App() {
     <Navbar />
     <Hero />
     <About />
+    <Skills />
+    <Projects />
+    <Contact />
   </div>
 );
 }
