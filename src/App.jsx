@@ -1,7 +1,8 @@
 import { useTheme } from "./context/ThemeContext";
+import Navbar from "./components/Navbar/Navbar";
 
 function App() {
-  const { darkMode, toggleTheme } = useTheme();
+  const { darkMode } = useTheme();
 
   return (
     <div
@@ -11,23 +12,20 @@ function App() {
           : "bg-white text-black"
       }`}
     >
-      <div className="p-8">
-        <button
-          onClick={toggleTheme}
-          className="border px-4 py-2 rounded-lg"
-        >
-          Toggle Theme
-        </button>
+      <Navbar />
 
-        <h1 className="mt-10 text-5xl font-bold">
-          Vaishnavi
-        </h1>
+      <main>
+        <section className="px-6 py-24">
+          <h1 className="text-6xl font-bold">
+            Vaishnavi
+          </h1>
 
-        <p className="mt-4 text-xl max-w-3xl">
-          Full-Stack Developer & Competitive Programmer
-          building scalable applications powered by cloud and AI.
-        </p>
-      </div>
+          <p className="mt-6 max-w-3xl text-xl">
+            Full-Stack Developer & Competitive Programmer
+            building scalable applications powered by cloud and AI.
+          </p>
+        </section>
+      </main>
     </div>
   );
 }
