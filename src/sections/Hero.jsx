@@ -6,10 +6,22 @@ const Hero = () => {
   return (
     <section
       id="hero"
-      className="mx-auto flex min-h-screen max-w-7xl items-center px-6"
+      className="mx-auto flex min-h-screen max-w-7xl items-start px-6 pt-32"
     >
       {/* LEFT SIDE */}
-      <div className="flex-1">
+      <div className="flex-1 pt-20">
+        <motion.div
+          initial={{ opacity: 0, y: 20 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.8, delay: 0.4 }}
+          className="mb-6 flex items-center gap-3 rounded-full border border-zinc-700 bg-zinc-900/50 px-6 py-3 w-fit"
+        >
+          <div className="h-3 w-3 rounded-full bg-green-500 animate-pulse" />
+          <span className="text-sm font-medium text-zinc-300">
+            Available for opportunities
+          </span>
+        </motion.div>
+
         <motion.p
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
@@ -73,12 +85,12 @@ const Hero = () => {
 
         <FloatingBadge
           text="React"
-          className="top-20 left-20"
+          className="top-20 left-55"
         />
 
         <FloatingBadge
           text="Java"
-          className="top-72 left-0"
+          className="top-72 left-52"
         />
 
         <FloatingBadge
@@ -88,12 +100,12 @@ const Hero = () => {
 
         <FloatingBadge
           text="AI"
-          className="top-32 right-10"
+          className="top-12 right-10"
         />
 
         <FloatingBadge
           text="Knight Badge"
-          className="bottom-10 left-32"
+          className="bottom-10 left-92"
         />
       </div>
     </section>
