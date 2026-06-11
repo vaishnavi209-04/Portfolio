@@ -3,7 +3,7 @@ import FloatingBadge from "../components/FloatingBadge";
 
 const Hero = () => {
   return (
-    <section className="mx-auto flex min-h-[85vh] max-w-7xl items-center px-6">
+    <section id="hero" className="mx-auto flex min-h-[85vh] max-w-7xl items-center px-6">
       {/* Left Side */}
       <div className="flex-1">
         <motion.p

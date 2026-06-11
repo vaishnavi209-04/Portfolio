@@ -14,11 +14,14 @@ const Navbar = () => {
     py-6
   "
 >
-        <h1 className="text-xl font-bold tracking-wide">
+    
+        <div className="text-xl font-bold tracking-wide">
+            <a href="#hero">
           <span className="bg-gradient-to-r from-violet-400 to-fuchsia-400 bg-clip-text text-transparent">
   VM
 </span>
-        </h1>
+</a>
+        </div>
 
         <div className="flex items-center gap-8">
           <a href="#about" className="text-zinc-400 transition-all duration-300 hover:text-violet-400">
